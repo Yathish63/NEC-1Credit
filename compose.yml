@@ -1,12 +1,14 @@
-
 version: '3'
 services:
-  personal-api:
-    image: yathish3103/22it057-personal-api
+  balaji:
+    image: "balajiv003/22it003-personal-api-docker"
+    container_name: balajiv_container
+    restart: always
     ports:
-      - "5010:5000"
-
-  friends-api:
-    image: "balajiv003/22it003-personal-api"
+      - "5007:5000"
+  jotheeswaran:
+    image: "jotheeswaranjd7/22itl02-personal-api-docker"
+    container_name: jotheeswaranjd_container
+    restart: always
     ports:
-      - "90:5000"
+      - "5008:5000"
