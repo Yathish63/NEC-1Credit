@@ -4,10 +4,9 @@ services:
   personal-api:
     image: yathish3103/22it057-personal-api
     ports:
-      - "5000:5000"
+      - "5010:5000"
 
   friends-api:
     image: "balajiv003/22it003-personal-api"
     ports:
       - "90:5000"
-Update this file to add the content
