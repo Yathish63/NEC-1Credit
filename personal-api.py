@@ -1,4 +1,4 @@
 Update this file to add your code
-/name - Should give your name
-/register_number - Should give your register_number
-/department - Should give your department
+name - YATHISH K
+register_number -22IT057
+department - B.Tech-IT
