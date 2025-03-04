@@ -1,4 +1,3 @@
-Update this file to add the content
 # Dockerfile for ml-model.py
 FROM python:3.12-slim
 
